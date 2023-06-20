@@ -85,8 +85,6 @@ WITH (
   'key.converter.schemas.enable'= 'true',
   'key.converter.schema.registry.url'= 'http://schema-registry:8081',
 
-  -- 'input.data.format'= 'AVRO',
-
   'value.converter.schemas.enable'= 'true',
   'value.converter'= 'io.confluent.connect.json.JsonSchemaConverter',
   -- 'value.converter'= 'io.confluent.connect.avro.AvroConverter',
